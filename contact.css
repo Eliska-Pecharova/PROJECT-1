@@ -1,0 +1,96 @@
+:root {
+  --color-white: #fff;
+  --color-script-black: #000;
+  --bc-color-dark-pink: #644b4f;
+  --bc-color-gray: #333333;
+  --bc-opacity-color-gray: rgb(51, 51, 51, 0.8);
+  --bc-color-ivory: #f2f2f2;
+  --hover-color: #efa69d;
+  --link-color: #e9877b;
+  --bc-color-nav: #33292a;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+}
+
+.contact-section {
+  background-image: url("images/forest.jpg");
+  padding: 310px 0;
+}
+
+.contact-info {
+  display: block;
+  text-align: center;
+  background-color: var(--bc-opacity-color-gray);
+  margin: 0 100px;
+  border-radius: 10px;
+  border: 1px solid var(--bc-color-ivory);
+  /*opacity: 0.9;*/
+}
+
+.contact-title {
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  color: var(--color-white);
+  margin-bottom: 30px;
+  padding: 20px 30px;
+}
+
+.contact-wrapper {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 200px;
+}
+
+.contact-phone,
+.contact-email {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 20px;
+  padding: 0 30px;
+}
+
+.contact-phone,
+.contact-email p {
+  color: var(--color-white);
+  margin-right: 10px;
+}
+
+.contact-phone {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-email {
+  display: flex;
+  flex-direction: row;
+}
+
+/*FOOTER*/
+footer {
+  background-color: var(--bc-color-gray);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.footer-home {
+  color: var(--hover-color);
+}
